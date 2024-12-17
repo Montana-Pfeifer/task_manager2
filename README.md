@@ -6,19 +6,19 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
-
+7.1.3 ~ 7.1.3
 * System dependencies
-
+ run:
+ bundle install
 * Configuration
 
 * Database creation
+ rails db create, migrate
 
 * Database initialization
+In terminal:
+ rails s
 
-* How to run the test suite
+ access http://localhost:3000/api/v1/tasks
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+ Now you can view tasks in the database
